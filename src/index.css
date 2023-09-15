@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url();
+}
+
+.container {
+  width: 500px;
+  margin: 200px auto 0;
+  background-color: beige;
+}
+
+.header {
+  height: 60px;
+  background-color: darkblue;
+  color: beige;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-area {
+  padding: 40px 80px;
+}
+
+.input-area input {
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  color: darkblue;
+}
+.input {
+  margin-bottom: 24px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  color: beige;
+  background-color: darkblue;
+  padding: 10px 16px;
+  border-radius: 24px;
+  box-shadow: 2px 2px 5px #555;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 139, 0.747);
+}
+
+.bmi-result {
+  position: relative;
+  height: 258.4px;
+  color: darkblue;
+  padding: 50px;
+}
+.bmi-result h1 {
+  margin-bottom: 40px;
+}
+
+small {
+  color: red;
+  font-size: 10px;
+}
+
+.message h2 {
+  padding: 0 75px 0;
+  margin: 16px 0 0 100px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 14px;
+  color: brown;
+}
+
+.message img {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  width: 100px;
+  height: auto;
+}
+
+.message .underweight-img {
+  top: 165px;
+  right: 5px;
+  width: 140px;
+}
+
+img:hover {
+  cursor: pointer;
+  filter: contrast(2);
+  animation: pulse 0.5s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
